@@ -1,0 +1,18 @@
+# 数据库配置
+  database:
+    type: mysql
+    host: "124.220.135.42"
+    port: 3306
+    user: root
+    password: your_password
+    name: "work"
+
+# 备份配置
+  backup:
+    path: ./backups          # 备份文件存储路径
+    retention: 30            # 保留天数（0-不清理）
+
+# 定时任务配置
+  schedule:
+    cron: "0 0 * * 4"        # 每周四00:00执行
+    run-on-start: false      # 启动时立即执行一次

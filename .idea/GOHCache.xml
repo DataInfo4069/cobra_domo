@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GoORMHelperCache">
+    <option name="schemaMapping">
+      <map>
+        <entry key="AppConfig">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/config/config.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="BackupConfig">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/config/config.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="BackupResult">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/cmd/backup.go" />
+              <option value="file://$PROJECT_DIR$/internal/backup/backup.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="DBConfig">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/pkg/database/backuo.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="DatabaseConfig">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/config/config.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ScheduleConfig">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/config/config.go" />
+            </set>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="scannedPathMapping">
+      <map>
+        <entry key="file://$PROJECT_DIR$/cmd/backup.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1766764555919" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/cmd/root.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1766760028183" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/cmd/schedule.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1766764757626" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/cmd/version.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1766764651280" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/config/config.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1766759962028" />
+              <option name="schema">
+                <list>
+                  <option value="DatabaseConfig" />
+                  <option value="BackupConfig" />
+                  <option value="ScheduleConfig" />
+                  <option value="AppConfig" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/internal/backup/backuo.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1766764364360" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/internal/backup/backup.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1766764757380" />
+              <option name="schema">
+                <list>
+                  <option value="BackupResult" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/main.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1766759922872" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/pkg/database.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1766758623065" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/pkg/database/backuo.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1766759771652" />
+              <option name="schema">
+                <list>
+                  <option value="DBConfig" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="tableStructMapping">
+      <map>
+        <entry key="app_config" value="AppConfig" />
+        <entry key="backup_config" value="BackupConfig" />
+        <entry key="backup_result" value="BackupResult" />
+        <entry key="database_config" value="DatabaseConfig" />
+        <entry key="db_config" value="DBConfig" />
+        <entry key="schedule_config" value="ScheduleConfig" />
+      </map>
+    </option>
+    <option name="lastTimeChecked" value="1766758448670" />
+  </component>
+</project>
